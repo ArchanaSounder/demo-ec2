@@ -2,7 +2,7 @@ variable ami_ssm_parameter {
  
 }
 
-variable instance_type {
+variable aws_instance_type {
 
 }
 
