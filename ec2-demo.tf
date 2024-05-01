@@ -7,4 +7,8 @@ module "aws-vm" {
   key_name                    = var.key_name      # Existing key name
   subnet_id                   = var.subnet_id 
   tags                        = var.tags
+   root_block_device = [{
+    volume_size = var.volume_size
+  }]
+  availability_zone           = var.availability_zone
 }
