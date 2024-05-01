@@ -21,3 +21,9 @@ variable subnet_id {
 variable tags {
 
 }
+variable volume_size {
+
+}
+variable availability_zone {
+  
+}
