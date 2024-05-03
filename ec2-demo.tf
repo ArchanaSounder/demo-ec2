@@ -1,3 +1,4 @@
+#Module for ec2
 module "aws-vm" {
   source                      = "intel/aws-vm/intel"
   version                     = "1.2.0"
